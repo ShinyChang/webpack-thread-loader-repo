@@ -1,0 +1,26 @@
+{
+  "name": "webpack-thread-loader-repo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Shiny <contact@shinychang.net>",
+  "license": "MIT",
+  "scripts": {
+    "local": "export NODE_ENV=local && webpack --mode development --config webpack.config.js",
+    "build": "export NODE_ENV=production && webpack --mode production --config webpack.config.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "style-loader": "^0.23.1",
+    "thread-loader": "^2.1.2",
+    "webpack": "^4.29.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.2.1"
+  }
+}
